@@ -1,0 +1,32 @@
+GameBoard:
+
+<GameBoard>:
+    Button:
+        text: "Roll the die!"
+        font_name: "snakefont.ttf"
+        font_size: "40dp"
+        on_press: root.on_button_click()
+        size_hint: .8, .2
+        pos: "0dp", "490dp"
+
+    Label:
+        id: current_roll
+        text: "Hello"
+        font_name: "snakefont.ttf"
+        font_size: "40dp"
+        size_hint: .2, .2
+        pos: "636dp", "490dp"
+        color: 1, 0, 0, 1
+
+
+
+<MainWidget>:
+    Button:
+        text: "Roll the die!"
+        size_hint: .8, .2
+    Label:
+        text: "Number"
+        size_hint: .2, .2
+        pos_hint: { "right": 1 }
+        color: 1, 0, 0, 1
+
